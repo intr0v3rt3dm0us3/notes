@@ -7,3 +7,20 @@ sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo
 Reboot
 
 sudo shutdown -r +1
+
+Change SSH Port
+
+sudo nano /etc/ssh/sshd_config
+
+Change Time Zone
+
+timedatectl
+
+sudo timedatectl set-timezone America/New_York
+
+Save SSH History
+
+history -w ~/history.txt
+
+TBD
+
